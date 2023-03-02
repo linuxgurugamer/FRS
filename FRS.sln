@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRS", "FRS\FRS.csproj", "{BBED0960-732A-47CC-84F3-5F90F6823735}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE7C7887-04ED-47E5-96CD-E4236D58619D}"
+	ProjectSection(SolutionItems) = preProject
+		buildRelease.bat = buildRelease.bat
+		deploy.bat = deploy.bat
+		FRS.version = FRS.version
+		jenkins.txt = jenkins.txt
+		License.txt = License.txt
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBED0960-732A-47CC-84F3-5F90F6823735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBED0960-732A-47CC-84F3-5F90F6823735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBED0960-732A-47CC-84F3-5F90F6823735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBED0960-732A-47CC-84F3-5F90F6823735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134FEB08-E355-4313-A0D1-437339EC6838}
+	EndGlobalSection
+EndGlobal
